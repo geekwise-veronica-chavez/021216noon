@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 25px;
+    padding: 0;
     background-color: aquamarine;
     box-sizing: border-box;
     width: 100%;
@@ -17,20 +17,20 @@ header{
 }
 main{
     margin: 0 auto;
-    padding: 15px;
+    padding: 0;
     background-color: blue;
     display: block;
-    width: 90%;
+    width: 100%;
     height: 100%;
     text-align: center;
-    
+    display: inline-block;
+    clear: both;
 }
 #one{
-    margin: 5px;
+    margin: 0;
     padding: 0;
-    border: solid 3px;
     background-color: purple;
-    width: calc(90%/3);
+    width: calc(100%/3);
     height: 350px;    
     float: left;
     font-size: 36px;
@@ -40,42 +40,30 @@ main{
     margin: 0;
     padding: 0;
     background-color: yellow;
-    width: calc(90%/3);
+    width: calc(100%/3);
     height: 350px;
     float: left;
     font-size: 36px;
     line-height: 10;
 }
 #three{
-    margin: 5px;
+    margin: 0;
     padding: 0;
-    border: solid;
     background-color: red;
-    width: calc(90%/3);
+    width: calc(100%/3);
     height: 350px;
     float: left;
     font-size: 36px;
     line-height: 10;
 }
-#donate{
-    margin: 0;
-    padding: 0;
-    
-}
-mark{
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    line-height: 5;
-}
+
 
 footer{
     margin: 0 auto;
     padding: 0;
     background-color: green;
     width: 100%;
-    height: 300px;
+    height: 100px;
     line-height: 5;
     text-align: center;
     font-size: 24px;
